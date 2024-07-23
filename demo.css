@@ -1,0 +1,211 @@
+.navbar{
+    /* display:flexbox; */
+   
+    position:fixed;
+    top: 0;
+    width:100%;
+    background-color:#3A27EA!important;	 /* #45b3fa        */
+    font-family: sans-serif;
+    color: #242323;  
+    font-weight: bold;
+    transition: ease 3s;
+}
+.navbar:hover{
+   bottom : 4px;
+}
+#nav-items:hover{
+    color:whitesmoke;
+    text-decoration: dotted;
+    }
+    
+body{
+    background-color:rgb(20, 116, 175);
+}
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+#about{
+    padding: 50px;
+    justify-content: center;
+    justify-self: center;
+    text-align: justify;
+    background-color:rgb(141, 209, 206);
+    font-family: sans-serif;
+    font-weight:bolder;
+}
+.image{
+    height:400px;
+    width:400px;
+    border-radius: 50%;
+    border-color: blue;
+    transition: width 2s, height 4s;
+
+}
+.image:hover{
+    width: 20px;
+    height: 60px;
+}
+.text-center{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.circle1{
+     width: 70px;
+     height: 70px;
+     
+     float: right;
+     justify-content: right;
+}
+#blue1{
+    background-color:rgb(49, 134, 168);
+        border-radius: 100px;
+}
+.code{
+    width: 70px;
+    height: 70px;
+    float: right;
+    padding-right: 70px;
+    transition: ease-in 2s;
+}
+.code:hover{
+    width: 240px;
+}
+
+
+#heading-skill h1{
+    display:grid;
+    place-items: center;
+    text-align: center;
+    background-color:#00BFFF;
+}
+#skill-contain{
+    width: 100%;
+    background-color: #f2f2f2;
+    font-weight: bolder;
+    justify-content: center;
+  }
+    
+.language{
+    font-size: large;
+    color:#121212;
+    font-weight: bold;
+ }
+    
+.skills {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    justify-self: center;
+    color: white;
+    background-color: #95d8eb;
+    border-radius: 4px;
+ }
+    
+#skills{
+    background-color:#95d8eb;
+}
+
+.html {width: 95%; background-color: #f06529;}
+.css {width: 90%; background-color: #2965f1;}
+.js {width: 60%; background-color: #ffd632;}
+.Python {width: 70%; background-color:#2a4f6e;
+} 
+
+#contact{
+    display: grid;
+    place-items: center;
+    align-items: center;
+    align-content: center;
+    font-size:x-large;
+    font-style:italic;
+    font-weight: bold;
+    text-decoration: none;
+    list-style:none;
+    border: 2px solid blue;
+    border-radius: 8px;
+    border-style: initial;
+    margin:60px;
+    padding:60px;
+    background-color:rgb(104, 190, 186);
+    }  
+  
+#Contact{
+    background-color:#27D8EA;
+  }
+
+#name,#email{
+    display: block;
+    border: 2px solid;
+    border-radius: 4px;
+    height: 50px;
+    width:400px;
+    }
+#Message{
+    margin: 4px;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 4px;
+    height: 150px;
+    width:500px;
+    }
+#sub-butt{
+    display:grid;
+    place-items: center;
+    align-items: center;
+    align-content: center;
+    }
+      
+input[type="submit"] {
+        border-radius: 4px;
+        border: 2px solid blue;
+        background-color: #6a7fad;
+        transition: ease-in 1s;
+        place-items: center;
+        align-items: center;
+        align-content: center;
+    }
+input[type="submit"]:hover{
+    color: #3A27EA;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+}
+#foot{
+    background-color:#95d8eb;
+    color:#04AA6D;
+    height: 300px;
+    display:grid;
+    place-items: center;
+    align-items: center;
+    align-content: center;
+    text-decoration: none;
+    border: 4px solid #3d5a80;
+    border-radius: 4px;
+  }
+
+  #foot-link{
+    color:#3A27EA;
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+  }
+
+  #foot-link:hover{
+    color:snow;
+  }
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
